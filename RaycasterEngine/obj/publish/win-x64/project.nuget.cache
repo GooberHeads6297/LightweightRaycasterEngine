@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "o7vw2//Y4Yc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mhedg\\source\\repos\\RaycasterEngine\\RaycasterEngine\\RaycasterEngine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mhedg\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.16\\microsoft.dotnet.ilcompiler.8.0.16.nupkg.sha512",
+    "C:\\Users\\mhedg\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.16\\microsoft.net.illink.tasks.8.0.16.nupkg.sha512",
+    "C:\\Users\\mhedg\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.16\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.16.nupkg.sha512",
+    "C:\\Users\\mhedg\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.16\\microsoft.netcore.app.runtime.win-x64.8.0.16.nupkg.sha512",
+    "C:\\Users\\mhedg\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.16\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.16.nupkg.sha512",
+    "C:\\Users\\mhedg\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.16\\microsoft.aspnetcore.app.runtime.win-x64.8.0.16.nupkg.sha512",
+    "C:\\Users\\mhedg\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.16\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

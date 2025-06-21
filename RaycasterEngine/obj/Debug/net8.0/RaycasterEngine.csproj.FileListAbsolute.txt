@@ -1,0 +1,14 @@
+C:\Users\mhedg\source\repos\RaycasterEngine\RaycasterEngine\bin\Debug\net8.0\RaycasterEngine.exe
+C:\Users\mhedg\source\repos\RaycasterEngine\RaycasterEngine\bin\Debug\net8.0\RaycasterEngine.deps.json
+C:\Users\mhedg\source\repos\RaycasterEngine\RaycasterEngine\bin\Debug\net8.0\RaycasterEngine.runtimeconfig.json
+C:\Users\mhedg\source\repos\RaycasterEngine\RaycasterEngine\bin\Debug\net8.0\RaycasterEngine.dll
+C:\Users\mhedg\source\repos\RaycasterEngine\RaycasterEngine\bin\Debug\net8.0\RaycasterEngine.pdb
+C:\Users\mhedg\source\repos\RaycasterEngine\RaycasterEngine\obj\Debug\net8.0\RaycasterEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mhedg\source\repos\RaycasterEngine\RaycasterEngine\obj\Debug\net8.0\RaycasterEngine.AssemblyInfoInputs.cache
+C:\Users\mhedg\source\repos\RaycasterEngine\RaycasterEngine\obj\Debug\net8.0\RaycasterEngine.AssemblyInfo.cs
+C:\Users\mhedg\source\repos\RaycasterEngine\RaycasterEngine\obj\Debug\net8.0\RaycasterEngine.csproj.CoreCompileInputs.cache
+C:\Users\mhedg\source\repos\RaycasterEngine\RaycasterEngine\obj\Debug\net8.0\RaycasterEngine.dll
+C:\Users\mhedg\source\repos\RaycasterEngine\RaycasterEngine\obj\Debug\net8.0\refint\RaycasterEngine.dll
+C:\Users\mhedg\source\repos\RaycasterEngine\RaycasterEngine\obj\Debug\net8.0\RaycasterEngine.pdb
+C:\Users\mhedg\source\repos\RaycasterEngine\RaycasterEngine\obj\Debug\net8.0\RaycasterEngine.genruntimeconfig.cache
+C:\Users\mhedg\source\repos\RaycasterEngine\RaycasterEngine\obj\Debug\net8.0\ref\RaycasterEngine.dll

@@ -1,0 +1,2 @@
+C:\Users\mhedg\source\repos\RaycasterEngine\RaycasterEngine\bin\Release\net8.0\publish\win-x64\RaycasterEngine.exe
+C:\Users\mhedg\source\repos\RaycasterEngine\RaycasterEngine\bin\Release\net8.0\publish\win-x64\RaycasterEngine.pdb
