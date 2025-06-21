@@ -22,7 +22,7 @@ Everytime you open the app it will create a randomly generated map using the Gen
             {
                 if (x == 0 || y == 0 || x == mapWidth - 1 || y == mapHeight - 1)
                 {
-                    map[y, x] = '#';
+                    map[y, x] = '#';               // # = wall | . = Empty Space
                 }
                 else
                 {
@@ -31,9 +31,9 @@ Everytime you open the app it will create a randomly generated map using the Gen
             }
         }
 
-        map[3, 3] = '.';
+        map[3, 3] = '.';       
         map[3, 4] = '.';
-        map[4, 3] = '.';
+        map[4, 3] = '.';          //Ensures there's still space for the player to move around in
         map[4, 4] = '.';
     }
 
