@@ -36,7 +36,20 @@ Everytime you open the app it will create a randomly generated map using the Gen
         map[4, 3] = '.';          //Ensures there's still space for the player to move around in
         map[4, 4] = '.';
     }
+        _______________________
+        |                     |
+        | How to use on Linux |
+        |_____________________|
 
+* In the same Directory the RaycasterEngine is in run this command
+
+          chmod +x RaycasterEngine
+  
+Then run the executable
+
+        ./RaycasterEngine
+
+Then you have awesome game in your terminal!
 
 It's a bit buggy and has a bit of delay in the movement, but i do plan on fixing that soon. 
 
