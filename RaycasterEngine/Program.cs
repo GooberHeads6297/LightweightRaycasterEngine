@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Collections.Generic;
 
 namespace RaycasterApp;
 
@@ -24,6 +25,10 @@ class Program
         double previousTime = stopwatch.Elapsed.TotalSeconds;
 
         Console.Clear();
+        Console.TreatControlCAsInput = true;
+
+        var pressedKeys = new HashSet<ConsoleKey>();
+        bool showMap = false;
 
         while (true)
         {
@@ -42,8 +47,23 @@ class Program
 
             while (Console.KeyAvailable)
             {
-                ConsoleKey key = Console.ReadKey(true).Key;
+                var keyInfo = Console.ReadKey(true);
+                if (keyInfo.Key == ConsoleKey.Escape)
+                {
+                    Console.SetCursorPosition(0, screenHeight + 1);
+                    return;
+                }
 
+                if (keyInfo.Key == ConsoleKey.M)
+                {
+                    showMap = !showMap;
+                }
+
+                pressedKeys.Add(keyInfo.Key);
+            }
+
+            foreach (var key in pressedKeys)
+            {
                 if (key == ConsoleKey.W)
                 {
                     double newX = posX + dirX * moveSpeed;
@@ -80,14 +100,27 @@ class Program
                     planeX = planeX * Math.Cos(-rotSpeed) - planeY * Math.Sin(-rotSpeed);
                     planeY = oldPlaneX * Math.Sin(-rotSpeed) + planeY * Math.Cos(-rotSpeed);
                 }
-                else if (key == ConsoleKey.Escape)
-                {
-                    Console.SetCursorPosition(0, screenHeight + 1);
-                    return;
-                }
             }
 
+            pressedKeys.Clear();
             Console.SetCursorPosition(0, 0);
+
+            if (showMap)
+            {
+                for (int y = 0; y < mapHeight; y++)
+                {
+                    for (int x = 0; x < mapWidth; x++)
+                    {
+                        if ((int)posX == x && (int)posY == y)
+                            Console.Write('P');
+                        else
+                            Console.Write(map[y, x]);
+                    }
+                    Console.WriteLine();
+                }
+                Console.WriteLine("Press 'M' to toggle map");
+                continue;
+            }
 
             for (int y = 0; y < screenHeight; y++)
             {
@@ -163,6 +196,11 @@ class Program
 
                     if (y >= screenHeight / 2 - lineHeight / 2 && y <= screenHeight / 2 + lineHeight / 2)
                         row += side ? "|" : "#";
+                    else if (y > screenHeight / 2)
+                    {
+                        int checker = (x + y) % 3;
+                        row += checker == 0 ? '.' : (checker == 1 ? '-' : '_');
+                    }
                     else
                         row += " ";
                 }
